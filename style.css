@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8e8e8;
+    margin: 0;
+    padding: 30px;
+    color: #222;
+}
+
+/* HALAMAN CV */
+.cv {
+    width: 800px;
+    min-height: 1100px;
+    margin: auto;
+    padding: 50px 60px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+/* FOTO DAN IDENTITAS */
+.profile {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile h1 {
+    margin: 15px 0 5px;
+    font-size: 26px;
+}
+
+.profile p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* SETIAP BAGIAN */
+.section {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+/* JUDUL BAGIAN */
+.section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #222;
+    text-transform: uppercase;
+}
+
+/* DATA PRIBADI */
+.personal p {
+    margin: 7px 0;
+    font-size: 14px;
+}
+
+/* PENDIDIKAN */
+.education {
+    margin-bottom: 15px;
+}
+
+.education h3 {
+    margin: 0 0 4px;
+    font-size: 16px;
+}
+
+.education p {
+    margin: 3px 0;
+    font-size: 14px;
+}
+
+.education span {
+    float: right;
+    font-size: 14px;
+}
+
+/* PROJECT */
+.project {
+    margin-bottom: 18px;
+}
+
+.project h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+}
+
+.project p {
+    margin: 4px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.project span {
+    font-size: 13px;
+    color: #555;
+}
+
+/* ORGANISASI */
+.organization {
+    margin-bottom: 15px;
+}
+
+.organization h3 {
+    margin: 0 0 4px;
+    font-size: 16px;
+}
+
+.organization p {
+    margin: 3px 0;
+    font-size: 14px;
+}
+
+.organization span {
+    float: right;
+    font-size: 14px;
+}
+
+/* LIST */
+ul {
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+/* QUOTE */
+.quote {
+    margin-top: 25px;
+    text-align: center;
+    color: #555;
+    font-style: italic;
+    font-size: 14px;
+}
